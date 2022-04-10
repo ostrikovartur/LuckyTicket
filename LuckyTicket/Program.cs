@@ -9,6 +9,18 @@ else if (ticket.Length > 8)
 {
     Console.WriteLine("string > 8");
 }
-ticket.Length /   
+int x = ticket.Length;
+
+if (x%2 == 0)
+{
+    Console.WriteLine("Четное");
+}
+else
+{
+    Console.WriteLine("Не четное");
+    ticket = "0" + ticket;
+    
+    
+}
 
 
